@@ -133,7 +133,7 @@ subplot(1,1,1,'fontsize',FS)
 hold on;grid on;box on;
 
 if strcmp(M{1},'Si')==1
-   v=1.2; % value a bit higher than the material bandgap in eV
+   v=1.3; % value a bit higher than the material bandgap in eV
 end
 if strcmp(M{1},'GaAs')==1
    v=1.7; % value a bit higher than the material bandgap in eV
